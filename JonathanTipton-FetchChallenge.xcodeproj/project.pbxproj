@@ -10,16 +10,23 @@
 		F66A55762AF1814100078712 /* JonathanTipton_FetchChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66A55752AF1814100078712 /* JonathanTipton_FetchChallengeApp.swift */; };
 		F66A55782AF1814100078712 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66A55772AF1814100078712 /* ContentView.swift */; };
 		F66A557A2AF1814200078712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66A55792AF1814200078712 /* Assets.xcassets */; };
-		F66A557E2AF1814200078712 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66A557D2AF1814200078712 /* Preview Assets.xcassets */; };
+		F66A55852AF1819900078712 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66A55842AF1819900078712 /* Meal.swift */; };
+		F66A558C2AF18FB500078712 /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66A558B2AF18FB500078712 /* MealDetailView.swift */; };
+		F66A55902AF1AD2300078712 /* MealCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66A558F2AF1AD2300078712 /* MealCardView.swift */; };
+		F6A6334B2AF5ED71004CA044 /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A6334A2AF5ED71004CA044 /* ContentView-ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F6060BB22AF9E58800E33BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F66A55722AF1814100078712 /* JonathanTipton-FetchChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JonathanTipton-FetchChallenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66A55752AF1814100078712 /* JonathanTipton_FetchChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JonathanTipton_FetchChallengeApp.swift; sourceTree = "<group>"; };
 		F66A55772AF1814100078712 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F66A55792AF1814200078712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F66A557B2AF1814200078712 /* JonathanTipton_FetchChallenge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JonathanTipton_FetchChallenge.entitlements; sourceTree = "<group>"; };
-		F66A557D2AF1814200078712 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F66A55842AF1819900078712 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		F66A558A2AF18D1B00078712 /* JonathanTipton_FetchChallenge.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = JonathanTipton_FetchChallenge.entitlements; sourceTree = "<group>"; };
+		F66A558B2AF18FB500078712 /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
+		F66A558F2AF1AD2300078712 /* MealCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCardView.swift; sourceTree = "<group>"; };
+		F6A6334A2AF5ED71004CA044 /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,21 +59,17 @@
 		F66A55742AF1814100078712 /* JonathanTipton-FetchChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				F6060BB22AF9E58800E33BF9 /* Info.plist */,
 				F66A55752AF1814100078712 /* JonathanTipton_FetchChallengeApp.swift */,
+				F66A55842AF1819900078712 /* Meal.swift */,
 				F66A55772AF1814100078712 /* ContentView.swift */,
+				F6A6334A2AF5ED71004CA044 /* ContentView-ViewModel.swift */,
+				F66A558F2AF1AD2300078712 /* MealCardView.swift */,
+				F66A558B2AF18FB500078712 /* MealDetailView.swift */,
 				F66A55792AF1814200078712 /* Assets.xcassets */,
-				F66A557B2AF1814200078712 /* JonathanTipton_FetchChallenge.entitlements */,
-				F66A557C2AF1814200078712 /* Preview Content */,
+				F66A558A2AF18D1B00078712 /* JonathanTipton_FetchChallenge.entitlements */,
 			);
 			path = "JonathanTipton-FetchChallenge";
-			sourceTree = "<group>";
-		};
-		F66A557C2AF1814200078712 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				F66A557D2AF1814200078712 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +130,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F66A557E2AF1814200078712 /* Preview Assets.xcassets in Resources */,
 				F66A557A2AF1814200078712 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +142,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F66A55782AF1814100078712 /* ContentView.swift in Sources */,
+				F66A55852AF1819900078712 /* Meal.swift in Sources */,
+				F66A558C2AF18FB500078712 /* MealDetailView.swift in Sources */,
+				F66A55902AF1AD2300078712 /* MealCardView.swift in Sources */,
+				F6A6334B2AF5ED71004CA044 /* ContentView-ViewModel.swift in Sources */,
 				F66A55762AF1814100078712 /* JonathanTipton_FetchChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,13 +273,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "JonathanTipton-FetchChallenge/JonathanTipton_FetchChallenge.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"JonathanTipton-FetchChallenge/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = X67TLHFY58;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "JonathanTipton-FetchChallenge/Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -284,18 +293,20 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jonytipton.JonathanTipton-FetchChallenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,13 +316,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "JonathanTipton-FetchChallenge/JonathanTipton_FetchChallenge.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"JonathanTipton-FetchChallenge/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = X67TLHFY58;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "JonathanTipton-FetchChallenge/Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -322,18 +336,20 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jonytipton.JonathanTipton-FetchChallenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
