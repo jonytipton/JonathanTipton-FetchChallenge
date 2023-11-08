@@ -1,6 +1,6 @@
 #  JonathanTipton-FetchChallenge
 ## Summary
-SwiftUI app that utlizes TheMealDB API(https://www.themealdb.com/api.php) to fetch and display recipes of various categories.
+SwiftUI app that utlizes [TheMealDB API](https://www.themealdb.com/api.php) to fetch and display recipes of various categories.
 
 
 <p align="center">
